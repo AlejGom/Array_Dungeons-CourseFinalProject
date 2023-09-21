@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.panelesJuego{
+	-fx-border-color: black;
+	-fx-background-color: rgb(104, 68, 48,0.8);
+}
+.textoCreditos{
+	-fx-background-color: #929292;
+}
+.fondoMuerte{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}

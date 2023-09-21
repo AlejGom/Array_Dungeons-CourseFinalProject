@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" styleClass="textoCreditos" stylesheets="@application.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.Controles_Controller">
+   <children>
+      <ImageView fx:id="botonVolverTitulo" fitHeight="81.0" fitWidth="141.0" layoutX="14.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/boton_retroceder.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="64.0" layoutX="10.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/PJ.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="78.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Este cactus, eres tu." />
+      <Text layoutX="78.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu misión es sobrevivir todo lo que puedas" />
+      <Text layoutX="78.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dentro de la dungeon, mientras, puedes recoger " />
+      <Text layoutX="78.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="monedas para aumentar tu puntuación." />
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="10.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/teclas.png" />
+         </image></ImageView>
+      <Text layoutX="90.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Con estas teclas puedes moverte hacia" />
+      <Text layoutX="90.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="arriba, abajo, izquierda y derecha respectivamente" />
+      <ImageView fitHeight="85.0" fitWidth="64.0" layoutX="18.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/enemigo3.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="89.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ten cuidado porque no es tán fácil, hay monstruos en" />
+      <Text layoutX="89.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="la dungeon que te impedirán el paso. Derrótalos con" />
+      <Text layoutX="89.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tus armas o con tu propio cuerpo." />
+      <Text layoutX="34.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La mecánica de combate trata de jugar con los puntos de vida." />
+      <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="180.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/Numeros%20y%20letras/numero4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="90.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/Numeros%20y%20letras/numero9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="268.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/Numeros%20y%20letras/numero5.png" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="122.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="---------&gt;" />
+      <Text layoutX="127.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si se te acaban has perdido." />
+      <Text layoutX="40.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si tienes 9 de vida y derrotas a un enemigo que tiene 4, esta" />
+      <Text layoutX="112.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vida será restada a tu vida actual." />
+      <ImageView fitHeight="95.0" fitWidth="51.0" layoutX="10.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/arma1.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="59.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Existen armas y pociones que te ayudarán en tu aventura," />
+      <Text layoutX="59.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cada arma te dará daño, lo que hara que al derrotar a un " />
+      <Text layoutX="58.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="enemigo la vida se le restará al arma." />
+      <Text layoutX="58.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Así mismo, las pociones te recuperan vida." />
+   </children>
+</AnchorPane>
